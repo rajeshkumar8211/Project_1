@@ -4,8 +4,8 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 public class DBConnection {
     private static final String URL = "jdbc:mysql://localhost:3306/cgpa";
-    private static final String USERNAME = "root";
-    private static final String PASSWORD = "svmr";
+    private static final String USERNAME = "Your_Username";
+    private static final String PASSWORD = "Your_Password";
     private DBConnection() {
     }
     public static Connection getConnection() {
